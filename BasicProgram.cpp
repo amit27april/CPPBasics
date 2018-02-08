@@ -62,14 +62,14 @@ int main()
 	//To check BasicProgram
 	BasicProgram bp("GitHub");
 	bp.displayStr();
-  BasicProgram bp1(bp);
-  bp1.displayStr();
-  BasicProgram bp2;
-  bp2 = bp;
-  bp2.displayStr();
-  bp.change("Programming");
-  bp.displayStr();
-  	
+  	BasicProgram bp1(bp);
+  	bp1.displayStr();
+  	BasicProgram bp2;
+  	bp2 = bp;
+  	bp2.displayStr();
+  	bp.change("Programming");
+  	bp.displayStr();
+
 	cin.get();
 	return 0;
 }
