@@ -1,3 +1,4 @@
+/* This will not compile, its just for understanding purpose*/
 #include <iostream>
 
 class OdnProvSvrSession : public AService
